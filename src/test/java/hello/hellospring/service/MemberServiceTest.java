@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+
+//통합테스트보다는 기능별로 쪼개서 단위테스트를 하는게 좋다
+//스프링 컨테이너까지 올려서 할 필요 X (실행 속도 면에서나 ~
 class MemberServiceTest {
 
     MemberService memberService;
